@@ -75,12 +75,12 @@ text-align:center;}
 	border-radius: 25px 0px;
 	-webkit-box-shadow: 5px 3px 3px #0a182e;
 	box-shadow: 5px 3px 3px #0a182e;
-	opacity: 0.8;
+	opacity: 0.9;
 }
 
 #edito h2
 {
-	color: #000;
+	color: #3875F7;
 	font-size: 160%;
 	margin: 0 0 .5em;
 }
@@ -100,7 +100,7 @@ div.element
 	border-radius: 25px 0px;
 	-webkit-box-shadow: 5px 3px 3px #0a182e;
 	box-shadow: 5px 3px 3px #0a182e;
-	opacity: 0.8;
+	opacity: 0.9;
 }
 
 div.element img
@@ -127,6 +127,7 @@ p
 h2,h3
 {
 	text-align: center;
+	color:#3875F7;
 }
 
 #footer
@@ -137,7 +138,7 @@ h2,h3
 	font-weight: bold;
 	padding: 20px;
 	height: 1%;
-	background-image: url('bas.jpg');
+	box-shadow: 8px -5px 8px #0a182e;
 	background-repeat: no-repeat;
 	background-size: cover ;
 	background-position:center; 
