@@ -8,7 +8,7 @@ body
 	background-size: cover ;
 	background-position:center; 
 }
-#container
+#container /*test*/
 {
 	padding: 0;
 	margin: 0 ;
@@ -28,7 +28,8 @@ body
 	background-position:center; 
 }
 
-#header h1 { margin: 0; }
+#header h1 { margin: 0;
+text-align:center;}
 
 #navigation
 {
