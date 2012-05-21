@@ -26,10 +26,13 @@ body
 	background-repeat: no-repeat;
 	background-size: cover ;
 	background-position:center; 
+	color:#748ADB;
+
 }
 
 #header h1 { margin: 0;
-text-align:center;}
+text-align:center;
+}
 
 #navigation
 {
@@ -76,6 +79,7 @@ text-align:center;}
 	-webkit-box-shadow: 5px 3px 3px #0a182e;
 	box-shadow: 5px 3px 3px #0a182e;
 	opacity: 0.9;
+	font-weight:bold;
 }
 
 #edito h2
@@ -93,16 +97,25 @@ div.element
 	height: 400px;
 	overflow-y: scroll;
 	margin: 1%;
+	margin: 1%;
 	padding: 0%;
 	background-color: #f4fcff;
 	border: 1px solid #999999;
 	-webkit-border-radius: 25px 0px 25px 0px;
 	border-radius: 25px 0px;
 	-webkit-box-shadow: 5px 3px 3px #0a182e;
-	box-shadow: 5px 3px 3px #0a182e;
+	box-shadow: 5px 5px 3px #0a182e;
 	opacity: 0.9;
 }
-
+div.element a:visited{
+color:#8CB5EA;
+}
+div.element a:hover{
+color:#1F7EF2;
+}
+div.element a{
+color:#87DCED;
+}
 div.element img
 {
 	background-color : #fff;
@@ -124,10 +137,17 @@ p
 	text-align: justify;
 }
 
-h2,h3
+h2
 {
 	text-align: center;
 	color:#3875F7;
+	font-style: italic;
+}
+h3
+{
+	text-align: center;
+	color:#3875F7;
+	text-decoration: underline;
 }
 
 #footer
